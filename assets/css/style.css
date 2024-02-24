@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   background-color: #0B0C10;
-  color: #4e4e4e;
+  color: #fff;
 }
 
 h1,
@@ -20,11 +20,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000000;
+  color: #66FCF1;
 }
 
 a {
-  color: #1e1e1e;
+  color: #fff;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -143,7 +143,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 700;
-  color: #000000;
+  color: #66FCF1;
   font-size: 1.5rem;
 }
 
@@ -157,6 +157,7 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color:#66FCF1
 }
 
 .subtitle-a {
@@ -198,7 +199,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #282f39;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -834,6 +835,10 @@ a:hover {
 .about-mf .about-img img {
   margin-left: 10px;
 }
+.lead{
+  color: #fff;
+  font-size: 1rem;
+}
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -843,11 +848,11 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #1b2129;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
@@ -855,14 +860,14 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #FF0000;
+  background-color: #66FCF1;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: #282f39;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -901,7 +906,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -941,7 +946,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #282f39;
 }
 
 .work-box:hover img {
@@ -967,7 +972,7 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #66FCF1;
+  color: #fff;
 }
 
 .work-content .w-like {
@@ -986,6 +991,7 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1231,8 +1237,13 @@ a:hover {
   }
 }
 
+.card-blog{
+  background-color: #282f39;
+}
+
 .card-blog .card-body {
   position: relative;
+  ;
 }
 
 .card-blog .card-category-box {
@@ -1247,10 +1258,10 @@ a:hover {
 
 .card-blog .card-category {
   display: inline-block;
-  color: #fff;
+  color: #66FCF1;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #66FCF1;
+  background-color: #282f39;
   border-radius: 4px;
 }
 
@@ -1266,10 +1277,11 @@ a:hover {
 .card-blog .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
+  color: #66FCF1;
 }
 
 .card-blog .card-description {
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .card-blog .post-author {
